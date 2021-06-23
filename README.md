@@ -1,0 +1,5 @@
+Produces a SEV data catalog of data packages published on EDI.
+
+Querying_PASTA_for_SEV_data_packages.ipynb located in the code/ directory is a Jupyter notebook written in Python. The program queries [EDI's Data Portal](https://portal.edirepository.org/nis/home.jsp) for all SEV data packages posted on EDI at the time of the query. Various variables related to each data package are downloaded from EDI in XML file format. With some modifications to the Jupyter notebook Python code, the variables to be downloaded from EDI can be modified to suit a user's particular needs - see below for more info. The notebook also produces a csv file of the catalog output. The date the query was run against EDI is appended to the file titles for the XML and csv files and they are placed in the output/ directory of the project. This allows a user to download updated data catalogs over time and keep them organized by date.
+
+To see what variables you can query from EDI via their API, see the [PASTA+ Data Package Manager API](https://pastaplus-core.readthedocs.io/en/latest/doc_tree/pasta_api/data_package_manager_api.html).

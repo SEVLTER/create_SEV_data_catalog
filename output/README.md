@@ -1,0 +1,1 @@
+The output from querying EDI using the Jupyter notebook in the code/ directory is placed in this folder. The .gitignore file prevents the XML and csv file outputs from being placed on GitHub.

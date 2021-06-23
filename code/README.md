@@ -1,0 +1,3 @@
+Querying_PASTA_for_SEV_data_packages.ipynb is a Jupyter notebook written in Python. The program queries EDI for all SEV data packages currently on EDI and downloads various variables from EDI. The variables to be downloaded can be modified as suits particular needs. The notebook also produces a csv file of the catalog output. The date the query was run against EDI is appended to the file titles for the XML and csv files and they are placed in the output/ directory of the project.
+
+To see variables that you can query from EDI, see the [PASTA+ Data Package Manager API](https://pastaplus-core.readthedocs.io/en/latest/doc_tree/pasta_api/data_package_manager_api.html).
